@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "myfont", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(/img/tigre.jpg);
+    height: 150vh;
+    background-size: cover;
+    position: relative;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 40%;
+    position: absolute;
+    top: 100px;
+    right: 270px;
+}
+
+header a:hover {
+    color: black;
+}
+
+h1 {
+    text-align: right;
+    margin: 30px 150px;
+    font-size: 4rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+header img {
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 160px;
+}
+
+header article {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+header p {
+    padding-right: 150px;
+    font-size: 1.3rem;
+}
+
+header div {
+    width: 50%;
+    margin-left: 50%;
+}
+
+/* PREMIERE SECTION  */
+
+.w85 {
+    width: 85%;
+    margin: auto;
+}
+
+section:nth-of-type(1) div {
+    width: 45%;
+}
+
+section:nth-of-type(1) img {
+    width: 100%;
+}
+
+section:nth-of-type(1) article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+section:nth-of-type(1) p {
+    font-size: 1.3rem;
+}
+
+section:nth-of-type(1) h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+#firsth2 {
+    color: black;
+}
+
+/* DEUXIEME SECTION */
+
+section:nth-of-type(2) {
+    background-color: lightgreen;
+    position: relative;
+    height: 350px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#tigerAbsolute {
+    position: absolute;
+    bottom: -70px;
+    left: 100px;
+}
+
+#buttonBlue {
+    background-color: lightskyblue;
+    border-radius: 300px;
+    padding: 30px 100px;
+    color: white;
+    font-size: 1.6rem;
+    border: 2px solid white;
+    width: 40%;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+}
+
+#txtContain {
+    width: 55%;
+}
+
+h2 {
+    padding-bottom: 50px;
+    color: white;
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+/* TROISIEME SECTION */
+
+section:nth-of-type(3) img {
+    margin: 120px 0px;
+}
+
+#parentR {
+    position: relative;
+}
+
+#borderTop {
+    width: 99%;
+    border: 15px solid black;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    z-index: 1000;
+}
+
+#borderBottom {
+    width: 99%;
+    border: 15px solid black;
+    position: absolute;
+    bottom: 120px;
+    left: 0px;
+    z-index: 1000;
+}
+
+#backLight {
+    width: 99%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 250px;
+    position: absolute;
+    bottom: 120px;
+    z-index: 4000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section:nth-of-type(3) button {
+    border: 2px solid white;
+    border-radius: 300px;
+    background-color: black;
+    color: white;
+    font-size: 2.5rem;
+    padding: 20px 50px;
+}
+
+section:nth-of-type(3) p {
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.w40 {
+    width: 30%;
+    margin: auto;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: grey;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logoFooter {
+    width: 80%;
+}
+
+footer div, ul {
+    width: 18%;
+    margin: 50px 0px;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+}
+
+#buttonFooter {
+    font-size: 1.3rem;
+    border: 1px solid lightblue;
+    background-color: blue;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 100px;
+}
+
+footer ul li {
+    font-size: 1.8rem;
+}
+
+#ulFoot2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover {
+    transition: all 1s;
+    background-color: fuchsia!important;
+    cursor: pointer;
+}
